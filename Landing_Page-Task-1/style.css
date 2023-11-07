@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  align-items: center;
+  margin: 15px;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+header h2 {
+  margin-right: 200px;
+  color: whitesmoke;
+  background: #079ae4;
+  border-radius: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  box-shadow: 5px 5px 5px #CDF5FD;
+
+}
+
+header div{
+  margin-left: 38px ;
+  margin-right: 40px ;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: darkgray;
+  
+}
+
+/* header div:hover{
+    background: #079ae4;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 5px;
+
+} */
+.signin {
+  margin-left: 240px;
+  font-weight: bolder;
+  font: 1.2em monospace;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 10px;
+  color: black;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+.signin:hover{
+  background: #079ae4;
+  color: white;
+}
+
+main {
+  text-align: center;
+  margin: 50px;
+}
+
+.main-start {
+  color: #079ae4;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.main-mid {
+  margin: 10px;
+  font-family: monospace;
+  font-size: 3.7em;
+  font-weight: bold;
+
+}
+.main-end {
+  margin: 15px;
+  font-family: monospace;
+  font-size: 3.9em;
+  font-weight: bold;
+}
+
+.main-everyone {
+  background-color: #079ae4;
+  color: whitesmoke;
+  border-radius: 50px;
+  padding: 12px;
+  box-shadow: 10px 5px 10px #CDF5FD;
+}
+
+.main-line {
+  margin: 25px;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #aaa;
+}
+
+main div img {
+  margin: 0;
+  max-width: 35%;
+  height: auto;
+  overflow: hidden;
+}
+
+.signup-btn {
+  font-family: monospace;
+  margin: 30px;
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #00A9FF;
+  border-radius: 25px;
+  font-size: 2em;
+  padding: 15px;
+  box-shadow: 10px 5px 10px #CDF5FD;
+}
+
+section{
+  margin: 25px;
+}
+
+.main-cont {
+  font-family: monospace;
+  font-size: 2em;
+  border: 1px solid #ccc;
+  text-align: left;
+  width: 70%;
+  background: rgb(0, 169, 255);
+  background: linear-gradient(90deg, #00A9FF 0%, #999 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 5px 10px #CDF5FD;
+  margin: 50px;
+}
+
+.main-cont > div{
+  font-weight: bolder;
+  margin: 40px;
+  text-align: left;
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 0 0 7px #000;
+}
+.main-4 {
+  text-align: right;
+  margin-left: 20%;
+ 
+}
+.main-2 {
+  text-align: right;
+  margin-left: 20%;
+}
+
+.bubble-1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #CDF5FD;
+  border-radius: 50%;
+  transform: translate(30%, 0%);
+  z-index: -1;
+}
+
+.bubble-2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #A0E9FF;
+  border-radius: 50%;
+  transform: translate(150%, 25%);
+  z-index: -1;
+}
+
+.bubble-3 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #89CFF3;
+  border-radius: 50%;
+  transform: translate(30%, -70%);
+  z-index: -1;
+}
+
+.bubble-4 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #A0E9FF;
+  border-radius: 50%;
+  transform: translate(0%, -75%);
+  z-index: -1;
+}
+
+.main-btm {
+  margin: 50px;
+}
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #00A9FF;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 1.7em;
+  border-radius: 20px 20px 0px 0px;
+  text-shadow: 0 0 7px #000;
+}
+
+footer > div {
+  margin: 25px;
+}
